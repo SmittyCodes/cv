@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!-- ^^ "BOILER PLATE CODE"; - It is a reusable template.
+This is where we decalare the document type.
+It tells the browser the HTML verion (this is HTML 5) -->
+<html lang="en" dir="ltr">
+<!-- ^^ "HTML TAG"; - this tells the browser that everything
+between the opening (start) and closing (end) tag, is going to be HTML code -->
+
+<head>
+  <!-- ^^ "HEAD TAG"; - part of the HTML file that holds info about the web
+page & tells the browser how to handle the page -->
+  <meta charset="utf-8">
+  <!-- ^^ "META EMLEMENT"; - ("meta";HMTL tag "charset=utf-8"; HTML attribute)
+  gives extra meta data to the HMTL documnet, telling
+  our browser that all the text inside our webpage is encoded using the "utf-8"
+  encoding system. utf-8 is the standard coding when using HTML 5.
+  It includes all of the international symbols in that unicaod character set.
+  "utf-8" gives you maximum chance of your website being rendered correctly. -->
+
+  <title>😲Brian's Personal Site</title>
+  <!-- vv "STYLE TAG ELEMENT"; - contains style information for a document, or
+part of a document. It contains CSS, which is applied to the contents of the
+document containing the <style> element. -->
+  <style>
+    body {
+      background-color: #C8F2EF;
+    }
+
+    hr {
+      border-style: none;
+      border-top-style: dotted;
+      border-color: grey;
+      border-width: 7px;
+      width: 10%;
+    }
+  </style>
+  <!-- ^^ "INTERNAL CSS"; - By changing the style of our HORIZONTAL RULE <hr>
+  and by adding this INTERNAL CSS, to our index.html page, we have managed to
+  effect all of the horizontal rules on the same page. -->
+</head>
+
+<body>
+  <!-- ^^ "BODY TAG"; - the CONTENT of our HTML all goes in between the opening
+  and closing BODY tag. -->
+
+  <table cellspacing="20">
+
+    <tr>
+      <td><img src="C:\Users\brian\Desktop\Web Development\HTML - Personal Site\images\brian.png" alt="">
+        <!-- ^^ "ALT"; - if the browser cannot render the image it will use the
+      "ALTERNATIVE" text to describe to the user what the image is about. The
+      "ALTERNATIVE TEXT" is also used for S.E.O.-->
+
+      </td>
+      <td>
+        <h1>Brian Sean Aery</h1>
+        <!-- ^^ "LEVEL 1 HEADING"; - (ex. <h1>Your heading here</h1>) Notice
+        the heading has the same indentation as as the head and body. USE THE
+        BEAUTIFY FEATURE to automatically from time to time to make your code
+        more organized and easier to read. -->
+
+        <p><em>Founder and CTO of <b><a href="https://youtu.be/LKwW8PNZpOQ">Multiple Hostile Quadro Peds</a></b> </em></p>
+        <!-- ^^ "PARAGRAPH TAG"; - formats texts into a paragraph so the text
+      inside gets grouped into the same paragraph.-->
+        <!-- ^^ "EMPHASIS TAG"; - tells the browser that the words between it
+      should be emphasized or stressed (italisized). It is good practive to use
+      the em tag versus the i tag "italisize" becuase it conveys more
+      information -->
+        <!-- ^^ "ANCHOR ELEMENT"; - The <a> HTML element (or anchor element),
+      with its href attribute, creates a hyperlink to web pages, files, email
+      addresses, locations in the same page, or anything else a URL can address.
+      Content within each <a> should indicate the link's destination.
+      If the href attribute is present, pressing the enter key while focused
+      on the <a> element will activate it. -->
+        <p>Passionate about traveling, film,
+          and spending my free time behind the screen of
+          a computer or the viewfinder of camera</p>
+      </td>
+    </tr>
+
+  </table>
+
+  <hr>
+  <!-- ^^ "HORIZONTAL RULE TAG"; - represents a thematic break between
+  paragraph-level elements -->
+
+  <h3>Education</h3>
+  <!-- ^^ LEVEL 3 HEADING -->
+
+  <ul>
+    <!-- ^^ "UN-ORDERED LIST TAG"; - represents an unordered list of items,
+  typically rendered as a bulleted list.
+  The ul tag encloses all the parts that will be inculded
+  withing the bullet list -->
+
+    <li>Milk</li>
+    <!-- ^^ "LIST ITEM TAG"; - encloses each each and every
+    bullet point -->
+
+    <li>Cheese</li>
+  </ul>
+  <hr>
+  <h3>Work Experience</h3>
+
+  <table cellspacing="10">
+    <!-- ^^ "TABLE ELEMENT"; - represents tabular data — that is, information
+    presented in a two-dimensional table comprised of rows and columns of cells
+    containing data. -->
+
+    <thead>
+      <!-- ^^ "TABLE HEAD ELEMENT"; - defines a set of rows defining the head
+      of the columns of the table. -->
+
+      <tr>
+        <!-- ^^ "TABLE ROW ELEMENT"; - defines a row of cells in a table. The
+        row's cells can then be established using a mix of <td> (data cell) and
+        <th> (header cell) elements. -->
+
+        <th>Dates</th>
+        <th>Work</th>
+        <!-- ^^ "TABLE HEADER ELEMENT"; - defines a cell as header of a group
+        of table cells. -->
+
+      </tr>
+    </thead>
+    <tbody>
+      <!-- ^^ "TABLE BODY ELEMENT"; - encapsulates a set of table rows
+      (<tr> elements), indicating that they comprise the body of the table. -->
+
+    </tbody>
+    <tfoot>
+      <!-- ^^ "TABLE FOOT ELEMENT"; - defines a set of rows summarizing the
+      columns of the table. -->
+
+    </tfoot>
+    <tr>
+      <td>2010-2013</td>
+      <!-- ^^ "TABLE DATA CELL ELEMENT"; - defines a cell of a table that
+      contains data. It participates in the table model. -->
+
+      <td>Lead developer at Tempo App</td>
+    </tr>
+
+    <tr>
+      <td>2013-2020</td>
+      <td>Research at The Institute of Cognitive Neuroscience</td>
+    </tr>
+
+  </table>
+  <hr>
+  <h3>Skills</h3>
+
+  <table cellspacing="10">
+
+    <tr>
+      <td><a href="https://youtu.be/LKwW8PNZpOQ">Jackin it</a></td>
+      <td>⭐⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td><a href="https://youtu.be/LKwW8PNZpOQ">Jackin it</a></td>
+      <td>⭐⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td><a href="https://youtu.be/LKwW8PNZpOQ">Smackin it</a></td>
+      <td>⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>Jack</td>
+      <td>⭐⭐⭐⭐</td>
+    </tr>
+
+  </table>
+
+
+
+
+
+
+  <hr>
+  <a href="hobbies.html">My Hobbies</a>
+  <a href="contact.html">Contact Information</a>
+
+  <body>
+
+</html>
